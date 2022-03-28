@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de alinhamento</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+        .d1 { 
+            background-color: lightgray;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        .d1:hover {
+            background-color: yellow;
+        }
+
+        .d2 > p {
+            display: none;
+        }
+
+        .d2:hover > p {
+            display: block;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="d1">div 1</div>
+    <div class="d1">div 2</div>
+    <div class="d1">div 3</div>
+    
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div class="d2">
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO.....</p>
+    </div>  
+    <P>fim do exemplo</P>   
+
+       
+    
+</body>
+</html>

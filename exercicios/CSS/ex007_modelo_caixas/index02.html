@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    
+    <style>
+       body {
+           font-family: Arial, Helvetica, sans-serif;
+           background-color: dimgray;  
+       }
+
+       header {
+           background-color: white;
+           padding: 10px;
+           margin: 10px;
+       }
+
+       nav {
+           background-color: rgb(97, 97, 97);
+           padding: 3px;
+           box-shadow: 1px 1px 1px black; /*sombra no nav*/
+       }
+
+       nav > a {
+           color: white;
+           text-decoration: none;
+           font-weight: bold;
+           margin-right: 30px;
+       }
+
+       nav > a:hover {
+           text-decoration: underline;
+           
+       }
+
+       main {
+           background-color: white;
+           padding: 10px;
+           margin: 10px;
+           border-radius: 10px;
+       }
+
+       article {
+           background-color: lightgray;
+           padding: 5px;
+       }
+
+       article > aside {
+           background-color: rgb(128, 128, 128);
+       }
+
+       footer {
+           text-align: center;
+           color: white;
+           background-color: black;
+           margin: 0;
+           padding: 4px;
+       }
+
+       footer > p {
+           margin: 0;
+       }
+    </style>
+</head>
+    
+
+<body>
+    <header> <!--Cabecalho-->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+        
+    </header>
+
+    <main> <!--Conteudo principal-->
+        <section id="assuntos">
+            
+        </section>
+        
+        <section id="noticias">
+            <p> Esporte Politica Tecnologia</p>
+            <article>
+                <h2>TCC</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, expedita cupiditate dolorum voluptates facere rem laborum sint dolore voluptas repudiandae veritatis ratione, at earum, ullam necessitatibus consequatur? Tempora, earum quas.</p>
+                <aside>
+                    <p>Artigo de Lucas</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+        
+    
+        
+    <footer> <!--Rodape-->
+        <p>Desenvolvido por Lucas</p>
+    </footer> 
+</body>
+</html>
